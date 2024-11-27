@@ -48,7 +48,7 @@ ul.addEventListener("click",(e)=>{
 
 nextBtn.addEventListener("click",function(){
     if(selectedAnser ===""){
-        alert("please selct a option")
+       return
     }
    
    anwserArray.push(selectedAnser)
