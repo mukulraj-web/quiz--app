@@ -116,6 +116,12 @@ function renderQuestions() {
 }
 restartBtn.addEventListener("click",function(){
     resultContainer.classList.add("hidden")
+    
+    questionBox.classList.remove("hidden")
+
+    currentQuestionIndex =0
+     score =0
+    selectedAnser =""
     renderQuestions()
 })
 })
