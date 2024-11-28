@@ -11,6 +11,11 @@ let questionArray =[
         question:"Who is the President of india?",
         choiches:["Mukesh Ambani","Narendra Modi","Droupadi Murmu","Mukul raj"],
         answer:"Droupadi Murmu"
+    },
+    {
+        question:"who is the richest person in the world?",
+        choiches:["Mukesh Ambani","Elon Musk","Ratan Tata","Jeff Bezoz"],
+        answer:"Elon Musk"
     }
 ]
 
