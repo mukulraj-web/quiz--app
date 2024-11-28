@@ -72,7 +72,8 @@ if(currentQuestionIndex<questionArray.length){
     
    }
    resultContainer.classList.remove("hidden")
-   scoreDisplay.textContent = score
+   scoreDisplay.textContent =`${score} out of ${questionArray.length}` 
+   console.log(score)
 }
 
    
@@ -122,6 +123,7 @@ restartBtn.addEventListener("click",function(){
     currentQuestionIndex =0
      score =0
     selectedAnser =""
+    anwserArray =[]
     renderQuestions()
 })
 })
